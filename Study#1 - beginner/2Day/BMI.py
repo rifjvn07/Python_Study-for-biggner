@@ -17,4 +17,5 @@ t = float(input("키(cm)를 입력하세요: "))
 w = float(input("몸무게(kg)를 입력하세요: "))
 bmi = BMI(w,t/100.0)
 
+#소수 둘째자리까지 표현
 print("당신의 BMI: %.2f" %bmi )
